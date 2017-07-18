@@ -1,0 +1,13 @@
+language: ruby
+before_install:
+  - echo "travis before_install"
+intall:
+  - echo "travis install"
+
+before_script:
+  - gem install bundler
+
+script:
+  - bundle install
+  - echo "travis script"
+

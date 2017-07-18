@@ -1,4 +1,4 @@
-# QAlab Documentation [![Build Status](https://travis-ci.org/netzulo/qalab-doc.svg?branch=master)](https://travis-ci.org/netzulo/qalab-doc)
+# QAlab Documentation [![Build Status](https://travis-ci.org/netzulo/qadoc.svg?branch=master)](https://travis-ci.org/netzulo/qadoc)
 
 ### Prerequisites
 
