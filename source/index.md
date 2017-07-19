@@ -1,5 +1,5 @@
 ---
-title: Oxide API Reference
+title: QA Laboratory Documentation
 
 includes:
   - getting_started
@@ -9,14 +9,16 @@ search: true
 # Overview
 
 >
-[![qalab-framework](qalab-framework/favicon-96x96.png)](/qalab-framework/)
-[![qalab-core](qalab-core/favicon-96x96.png)](/qalab-core/)
-[![qalab-doc](qalab-doc/favicon-96x96.png)](/qalab-doc/)
+[![qalab](qalab/favicon-96x96.png)](/qalab/)
+[![qadoc](qadoc/favicon-96x96.png)](/qadoc/)
+[![qacode](qacode/favicon-96x96.png)](/qacode/)
+[![qadmin](qadmin/favicon-96x96.png)](/qadmin/)
 
 
 Welcome to first one **real** open source development proyect to provide help to testing any business software
 
-+ git clone https://github.com/netzulo/qalab-core
-+ git clone https://github.com/netzulo/qalab-doc
-+ git clone https://github.com/netzulo/qalab-framework
++ git clone --recursive --branch=master https://github.com/netzulo/qalab
++ git clone https://github.com/netzulo/qadoc
++ git clone https://github.com/netzulo/qacode
++ git clone https://github.com/netzulo/qadmin
 
