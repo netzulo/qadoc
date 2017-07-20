@@ -1,4 +1,7 @@
-# QAlab Documentation [![Build Status](https://travis-ci.org/netzulo/qadoc.svg?branch=master)](https://travis-ci.org/netzulo/qadoc)
+# QA Documentation 
+
++ Linux Deploy: [![Build status ](https://travis-ci.org/netzulo/qadoc.svg?branch=master)](https://travis-ci.org/netzulo/qadoc)
++ Windows Deploy: [![Build status](https://ci.appveyor.com/api/projects/status/ist2gcxanbbxqdss?svg=true)](https://ci.appveyor.com/api/projects/status/ist2gcxanbbxqdss?svg=true)
 
 ## _How to install?_
 
