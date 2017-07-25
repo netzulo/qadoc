@@ -1,7 +1,7 @@
 # QA Documentation 
 
 + Linux Deploy: [![Build status ](https://travis-ci.org/netzulo/qadoc.svg?branch=master)](https://travis-ci.org/netzulo/qadoc)
-+ Windows Deploy: [![Build status](https://ci.appveyor.com/api/projects/status/ist2gcxanbbxqdss?svg=true)](https://ci.appveyor.com/api/projects/status/ist2gcxanbbxqdss?svg=true)
++ Windows Deploy: [![Build status](https://ci.appveyor.com/api/projects/status/o70qi0ykpagrgte2?svg=true)](https://ci.appveyor.com/project/netzulo/qadoc)
 
 ## _How to install?_
 
