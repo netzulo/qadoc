@@ -21,8 +21,6 @@ rvm:
   - 2.1.6
   - 2.1.2
 
-before_install:
-  - echo "travis before_install"
 intall:
   - gem install bundler
 script:
