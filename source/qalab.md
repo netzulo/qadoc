@@ -1,15 +1,14 @@
 ---
-title: Oxide API for qalab-doc
-short_code: qalab-doc
+title: API for qalab
+short_code: qalab
 
 language_tabs:
   - shell
-  - batch
   - python
   - nodejs
 
 includes:
-  - qalab-doc/getting_started
+  - qalab/getting_started
 
 search: true
 ---
