@@ -1,13 +1,13 @@
 ---
-title: Oxide API for qalab-doc
-short_code: qalab-doc
+title: API for qadoc
+short_code: qadoc
 
 language_tabs:
   - html
   - ruby
 
 includes:
-  - qalab-doc/getting_started
+  - qadoc/getting_started
 
 search: true
 ---
