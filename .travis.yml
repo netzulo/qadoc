@@ -1,6 +1,7 @@
 branches:
   only:
     - master
+    - devel
 language: ruby
 rvm:
   - 2.3.4
