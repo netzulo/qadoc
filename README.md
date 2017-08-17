@@ -14,6 +14,10 @@
 + 1. Clone repository: `git clone https://github.com/netzulo/qadoc.git`
 + 2. Install ruby libs: `cd qadoc && bundler install --path=.`
 
+## _How to compile?_
+
++ 1. Exec bundle build action: `bundle exec middleman build`
+
 ### _How to start?_
 
 Start the test server: `bundle exec middleman server`
