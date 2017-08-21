@@ -3,6 +3,7 @@ title: API for qacode
 short_code: qacode
 
 language_tabs:
+  - bash
   - python
 
 includes:
