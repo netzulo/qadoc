@@ -35,3 +35,12 @@ Just visit us, check notices and more on our **[Netzulo Official Website](https:
 | devel  | [![Build Status](https://travis-ci.org/netzulo/qadmin.svg?branch=devel)](https://travis-ci.org/netzulo/qadmin)  | [![Build status](https://ci.appveyor.com/api/projects/status/qrb3o3qdeg3qv9eq/branch/devel?svg=true)](https://ci.appveyor.com/project/netzulo/qadmin/branch/devel)  |
 
 
+# qadrivers  **[API documentation](/qadrivers/)**
+
+| Drivers  | Linux 32 | Linux 64 |  Windows 32 | Windows 64 |
+| ------------- | ------------- |  ------------- |  ------------- |  ------------- |
+| Chrome |  OK |  OK |  OK |  OK |
+| Firefox |  OK |  OK |  OK |  OK |
+| PhantomJs |  OK |  OK |  OK |  OK |
+| Internet Explorer |  _doesn't exist_ |  _doesn't exist_ |  OK |  OK |
+| Edge |  _doesn't exist_ |  _doesn't exist_ |  OK |  OK |
