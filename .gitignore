@@ -52,3 +52,9 @@ build-iPhoneSimulator/
 .bundle/
 ruby/
 .sonar/
+
+# Visual Studio Configuration
+Properties/
+obj/
+
+*.csproj.user
