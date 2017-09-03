@@ -10,6 +10,8 @@ includes:
   - qacode/getting_started
   - qacode/configuration
   - qacode/test_unitaries
+  - qacode/qacode
+  - qacode/qacode.bots
 
 search: true
 ---
