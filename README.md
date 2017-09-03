@@ -31,4 +31,4 @@ Start the test server: `bundle exec middleman server`
 + 1. Fork this repository on GitHub
 + 2. Clone *your forked repository* (not original): `git clone https://github.com/netzulo/qadoc.git`
 + 3. Type `cd qadoc`
-+ 4. Once you've made the changes you'd feel are needed, push them to your fork and then submit a pull request. Simple as that!
++ 4. Once you've made the changes you'd feel are needed, push them to your fork and then submit a pull request
