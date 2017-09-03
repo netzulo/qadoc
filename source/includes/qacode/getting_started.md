@@ -1,3 +1,3 @@
 # Getting Started
 
-__Automation code library for QA process__
+_Automation code library for manage QA business software_

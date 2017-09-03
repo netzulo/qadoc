@@ -15,6 +15,70 @@
     
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\%25file_name%25.rb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>%file_name%.rb.cs</LastGenOutput>
+    </None>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\config.yaml.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>config.yaml.cs</LastGenOutput>
+    </None>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\excluding\%25file_name%25.rb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>%file_name%.rb.cs</LastGenOutput>
+    </None>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\%25file_name%25.rb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>%file_name%.rb.cs</LastGenOutput>
+    </None>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\config.yaml.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>config.yaml.cs</LastGenOutput>
+    </None>
+    <None Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\excluding\%25file_name%25.rb.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>%file_name%.rb.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\%25file_name%25.rb.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>%file_name%.rb.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\config.yaml.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>config.yaml.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\fixtures\doc\excluding\%25file_name%25.rb.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>%file_name%.rb.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\%25file_name%25.rb.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>%file_name%.rb.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\config.yaml.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>config.yaml.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ruby\2.4.0\gems\thor-0.19.1\spec\sandbox\doc\excluding\%25file_name%25.rb.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>%file_name%.rb.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
   <PropertyGroup>
     <NgProjectAssetsFile Condition="'$(ProjectAssetsFile)' != ''">$(ProjectAssetsFile)</NgProjectAssetsFile>
     <NgProjectAssetsFile Condition="'$(NgProjectAssetsFile)' == ''">$(BaseIntermediateOutputPath)/project.assets.json</NgProjectAssetsFile>
