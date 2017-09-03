@@ -2,7 +2,7 @@
 
 Just visit us, check notices and more on our **[Netzulo Official Website](https://netzulo.com/)**
 
-## qalab | **[API documentation](/qalab/)**
+## qalab **[API documentation](/qalab/)**
 
 
 | Branch  | Linux Deploy | Windows Deploy |
@@ -11,7 +11,7 @@ Just visit us, check notices and more on our **[Netzulo Official Website](https:
 | devel  | [![Build Status](https://travis-ci.org/netzulo/qalab.svg?branch=devel)](https://travis-ci.org/netzulo/qalab)  | [![Build status](https://ci.appveyor.com/api/projects/status/f4orjhi6vjgsxxq9/branch/devel?svg=true)](https://ci.appveyor.com/project/netzulo/qalab-v060g/branch/devel)  |
 
 
-## qacode | **[API documentation](/qacode/)**
+## qacode **[API documentation](/qacode/)**
 
 | Branch  | Linux Deploy | Windows Deploy |
 | ------------- | ------------- |  ------------- |
@@ -19,7 +19,7 @@ Just visit us, check notices and more on our **[Netzulo Official Website](https:
 | devel  | [![Build Status](https://travis-ci.org/netzulo/qacode.svg?branch=devel)](https://travis-ci.org/netzulo/qacode)  | [![Build status](https://ci.appveyor.com/api/projects/status/4a0tc5pis1bykt9x/branch/devel?svg=true)](https://ci.appveyor.com/project/netzulo/qacode/branch/devel)  |
 
 
-## qadoc | **[API documentation](/qadoc/)**
+## qadoc **[API documentation](/qadoc/)**
 
 | Branch  | Linux Deploy | Windows Deploy |
 | ------------- | ------------- |  ------------- |
@@ -27,7 +27,7 @@ Just visit us, check notices and more on our **[Netzulo Official Website](https:
 | devel  | [![Build Status](https://travis-ci.org/netzulo/qadoc.svg?branch=devel)](https://travis-ci.org/netzulo/qadoc)  | [![Build status](https://ci.appveyor.com/api/projects/status/o70qi0ykpagrgte2/branch/devel?svg=true)](https://ci.appveyor.com/project/netzulo/qadoc/branch/devel)  |
 
 
-## qadmin  **[API documentation](/qadmin/)**
+## qadmin **[API documentation](/qadmin/)**
 
 | Branch  | Linux Deploy | Windows Deploy |
 | ------------- | ------------- |  ------------- |
@@ -35,7 +35,7 @@ Just visit us, check notices and more on our **[Netzulo Official Website](https:
 | devel  | [![Build Status](https://travis-ci.org/netzulo/qadmin.svg?branch=devel)](https://travis-ci.org/netzulo/qadmin)  | [![Build status](https://ci.appveyor.com/api/projects/status/qrb3o3qdeg3qv9eq/branch/devel?svg=true)](https://ci.appveyor.com/project/netzulo/qadmin/branch/devel)  |
 
 
-# qadrivers  **[API documentation](/qadrivers/)**
+# qadrivers **[API documentation](/qadrivers/)**
 
 | Drivers  | Linux 32 | Linux 64 |  Windows 32 | Windows 64 |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |
