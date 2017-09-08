@@ -13,7 +13,7 @@ includes:
   - qacode/index
   - qacode/qacode.configs
   - qacode/qacode.core
-  - qacode/qacode.core.bots
+  - qacode/qacode.core.bots.index
   - qacode/qacode.core.bots.modules
   - qacode/qacode.core.exceptions
   - qacode/qacode.core.loggers
