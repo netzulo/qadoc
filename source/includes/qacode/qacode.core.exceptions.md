@@ -24,37 +24,3 @@ TODO: add description to class
 TODO: add description to class
 
 
-## Class: ControlException
-
-``` python
-
-"""No code examples for this class"""
-
-```
-
-TODO: add description to class
-
-
-## Class: ModelException
-
-``` python
-
-"""No code examples for this class"""
-
-```
-
-TODO: add description to class
-
-## Class: TestAssertionError
-
-``` python
-
-"""No code examples for this class"""
-
-```
-
-TODO: add description to class
-
-
-
-
