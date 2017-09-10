@@ -40,5 +40,5 @@ intall:
 - bundler install --path=.
 script:
 - bundle exec rake build &
-- sleep 20
+- sleep 30
 - nc -z -v -w5 localhost 4567
