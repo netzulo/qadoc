@@ -34,7 +34,7 @@ rvm:
 - 2.1.6
 - 2.1.2
 before_install:
-- apt-get install ruby-dev
+- sudo apt-get install ruby-dev
 - gem install bundler
 intall:
 - bundler install --path=.
