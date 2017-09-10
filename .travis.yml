@@ -40,3 +40,5 @@ intall:
 - bundler install --path=.
 script:
 - bundle exec rake build
+after_script:
+- sonar-scanner -X
