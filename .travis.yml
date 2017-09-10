@@ -1,29 +1,42 @@
 branches:
   only:
+  - master
+  - devel
+addons:
+  sonarcloud:
+    organization: "netzulo-github"
+    branches:
     - master
     - devel
+    token:
+      secure: 
+    github_token:
+      secure: 
 language: ruby
 rvm:
-  - 2.3.4
-  - 2.3.3
-  - 2.3.2
-  - 2.3.1
-  - 2.3.0
-  - 2.2.7
-  - 2.2.6
-  - 2.2.5
-  - 2.2.4
-  - 2.2.3
-  - 2.2.2
-  - 2.2.1
-  - 2.1.9
-  - 2.1.8
-  - 2.1.7
-  - 2.1.6
-  - 2.1.2
-
+- 2.3.4
+- 2.3.3
+- 2.3.2
+- 2.3.1
+- 2.3.0
+- 2.2.7
+- 2.2.6
+- 2.2.5
+- 2.2.4
+- 2.2.3
+- 2.2.2
+- 2.2.1
+- 2.1.9
+- 2.1.8
+- 2.1.7
+- 2.1.6
+- 2.1.2
+before_install:
+- apt-get install ruby-dev
+- gem install bundler
 intall:
-  - gem install bundler
+- bundler install --path=.
 script:
-  - bundle exec rake build
-
+- bundle exec rake build &
+- sleep 20
+- nc -z -v -w5 localhost 4567
