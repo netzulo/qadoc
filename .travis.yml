@@ -1,29 +1,44 @@
 branches:
   only:
+  - master
+  - devel
+sudo: required
+image: trusty
+addons:
+  sonarcloud:
+    organization: netzulo-github
+    branches:
     - master
     - devel
+    token:
+      secure: U5/Sf9UdJ6jbjtYNMUYtUz7/xfFrP6eIXLe8zwuJ9vx6ujqbpWyFknPPGcokjPHWrbPtpKjLVpooQm86+LqAfikU/QqvZoavB5QGRwJ+lr6g5kqhK5AeMAK2HwRQ8qu/07+gD262+u/tlXCyGWdqR4aYa2hjrX4h7RII6P4Jh67FyGK8OrNm9HgDcqo2R30wTw1iJICGiuNcE6Fkio4v8r1X8ykSFuhqmtau4YKzFgNlNUbEKtwE9rgQDYBUKx6fgrcIk8D/lqZol0kELL7dijVKU7PhCgdWdcVb85h7UqGgzK0PoxBIgqagUuFIx8rV/bdUcTmVyxmEP6FouIBJZayj7GfY6u0fiAAhT7ITuUGaZU3T3OB12PQuhWKmQJqOJ5ynOZsw9/oQrod+xuDehkkJFud2YedaEWYTY/sFW+7w3NkC3jjEo3B5wF38A8Bko3IWC2yKMSnduSK2XnJffAz47Q4Yedkpko3DTS31jHUbWnKib9zaToXMKu/zIRiI0Ja3jQF4tblvcZzQtyc9kVQLT4c92gf3r4pOTYL3mgOp68dbTX4wR5aG72efpgC1223ZWvOK7xxQRZ8cs0AgO9kdMxkrj0WPq7NVn2DMauhSgmr+AMPOPE9GhdCIBgY+MjkMAymXbeBOmCWNJUEJwN88yYacJjYscncFVqjs0CA=
+    github_token:
+      secure: lzvSpYf+YlmTieGumZh27O+6onqArIaXwDnwRNWGaSi7o1EK0bnZPQx11nLDBArL7rBQ2dBIDb9o3mHQkW2+suX9Y0emgcJzJrRHsDftRu5SmF8HB/IMiXsjI6Q7GPYhNr0bCgaS56kXKf4gg1jFoNYqrwa0IsvVnzBSPW5JKEGuTgC0utHhkdfJb0EVZzc8BdGydLL7Lqu5Bj0sxX8l/N0oHol6VSVtkCgi2HCsAIGWZXqakjRQiDH32CZ+tzZny5u2jVbpiKE91yVa3Nrqacl+AIfyYdufiwpIlYbn64soQKOycDL66CuJBlafdLNASeFqzNb7mqFkUvioQLxY2UI7ADG60coaKJ81R7L3qRyn72Ga7iUaHpFJ7seG18+6HaDALvFC9IIZ0hihCIafjj8oYitleV+c30BOVH7uwICQeclUiiorjcHkQljMgRdrTNUf1mAss8PlW0ltiqC7ftg8z8x/jBs2gZ8CizOWiUq+Ix8lexIq5tdNs21lq/W+NsO3vfp7xnftfjzGD+nWr/lhsslGer9yu6us3sB993BJVQuA7p1VVIhDBUdYlyOm/7BeiE4h+y6k/a37TXXXmbFwy71StzzrhktdpuW3/nae+XD6Hu2dc2qCgPxPgjit5/5lblOhShZIDP05izF+4QiURvXSpQwYP75HsRC3Weo=
 language: ruby
 rvm:
-  - 2.3.4
-  - 2.3.3
-  - 2.3.2
-  - 2.3.1
-  - 2.3.0
-  - 2.2.7
-  - 2.2.6
-  - 2.2.5
-  - 2.2.4
-  - 2.2.3
-  - 2.2.2
-  - 2.2.1
-  - 2.1.9
-  - 2.1.8
-  - 2.1.7
-  - 2.1.6
-  - 2.1.2
-
+- 2.3.4
+- 2.3.3
+- 2.3.2
+- 2.3.1
+- 2.3.0
+- 2.2.7
+- 2.2.6
+- 2.2.5
+- 2.2.4
+- 2.2.3
+- 2.2.2
+- 2.2.1
+- 2.1.9
+- 2.1.8
+- 2.1.7
+- 2.1.6
+- 2.1.2
+before_install:
+- sudo apt-get install ruby-dev
+- gem install bundler
 intall:
-  - gem install bundler
+- bundler install --path=.
 script:
-  - bundle exec rake build
-
+- bundle exec rake build
+after_script:
+- sonar-scanner -X
